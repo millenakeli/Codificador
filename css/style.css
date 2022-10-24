@@ -27,7 +27,8 @@ margin-block-end: 0.67em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
 }
-#opçoes{
+
+select{
     font-size: 1.0rem;
     text-align: center;
     font-style: italic;
@@ -50,11 +51,11 @@ textarea{
 
 
 .btn{
-    height: 50px;    
+    height: 50px;
     color: buttontext;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
     align-items: flex-start;
-     margin: 20px;
 }
